@@ -1,29 +1,31 @@
 {
-	"name": "astro-frontend-masters",
-	"type": "module",
-	"version": "0.0.1",
-	"scripts": {
-		"dev": "astro dev",
-		"start": "astro dev",
-		"build": "astro build",
-		"preview": "astro preview",
-		"astro": "astro"
-	},
-	"dependencies": {
-		"@astrojs/react": "^2.2.1",
-		"@astrojs/solid-js": "^2.2.0",
-		"@nanostores/react": "^0.7.1",
-		"@nanostores/solid": "^0.4.2",
-		"astro": "^2.5.5",
-		"nanostores": "^0.9.2",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"solid-js": "^1.7.6"
-	},
-	"devDependencies": {
-		"@types/markdown-it": "^12.2.3",
-		"@types/react": "^18.2.12",
-		"@types/react-dom": "^18.2.5",
-		"@types/sanitize-html": "^2.9.0"
-	}
+    "name": "astro-frontend-masters",
+    "type": "module",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro build",
+        "sync": "astro sync",
+        "preview": "astro preview",
+        "astro": "astro"
+    },
+    "dependencies": {
+        "@astrojs/react": "^2.2.1",
+        "@astrojs/solid-js": "^2.2.0",
+        "@nanostores/react": "^0.7.1",
+        "@nanostores/solid": "^0.4.2",
+        "astro": "^2.5.5",
+        "nanostores": "^0.9.2",
+        "netlify-cli": "^15.6.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "solid-js": "^1.7.6"
+    },
+    "devDependencies": {
+        "@types/markdown-it": "^12.2.3",
+        "@types/react": "^18.2.12",
+        "@types/react-dom": "^18.2.5",
+        "@types/sanitize-html": "^2.9.0"
+    }
 }
