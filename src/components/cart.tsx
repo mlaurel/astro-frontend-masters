@@ -26,12 +26,17 @@ export const Cart = () => {
     const $subtotal = useStore(subtotal);
     const $cart = useStore(cart);
 
+    console.log(Object.values($cart))
+
     return (
         <aside class={styles.cart}>
             <h2>Your Cart</h2>
             <Show when={Object.values($cart).length === 0} fallback={<EmptyState />}>
                 <ul class={styles.items}>
                     {Object.values($cart()).map((entry: CartItem) => {
+
+                        console.log(Object.values($cart))
+
                         if (!entry) {
                             return null;
                         }
@@ -74,6 +79,6 @@ export const Cart = () => {
                     </Show>
                 </div>
             </Show>
-        </aside>
+        </aside >
     )
 }

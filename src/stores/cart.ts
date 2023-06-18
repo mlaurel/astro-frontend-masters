@@ -6,6 +6,8 @@ export function addItemToCart(item: ShopItem) {
 	const cartItem = $cart.get()[item.id];
 	const quantity = cartItem ? cartItem.quantity : 0;
 
+	// console.log(item);
+
 	$cart.setKey(item.id, {
 		item,
 		quantity: quantity + 1,
