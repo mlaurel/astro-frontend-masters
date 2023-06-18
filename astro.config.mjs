@@ -1,11 +1,13 @@
 import { defineConfig } from 'astro/config';
-
 import react from "@astrojs/react";
 import solidJs from "@astrojs/solid-js";
 
+import netlify from "@astrojs/netlify/functions";
+
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://nice-astro-rss.netlify.app',
+    site: 'https://astro-rss-newsletter.netlify.app',
     output: 'hybrid',
-    integrations: [react(), solidJs()]
+    integrations: [react(), solidJs()],
+    adapter: netlify()
 });

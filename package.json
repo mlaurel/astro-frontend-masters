@@ -11,19 +11,20 @@
         "astro": "astro"
     },
     "dependencies": {
-        "astro": "^2.5.5",
+        "@astrojs/netlify": "^2.3.0",
         "@astrojs/react": "^2.2.1",
         "@astrojs/rss": "^2.4.3",
         "@astrojs/solid-js": "^2.2.0",
-        "nanostores": "^0.9.2",
         "@nanostores/react": "^0.7.1",
         "@nanostores/solid": "^0.4.2",
+        "astro": "^2.6.4",
         "markdown-it": "^13.0.1",
+        "nanostores": "^0.9.2",
+        "netlify-cli": "^15.6.0",
         "react": "^18.2.0",
-        "solid-js": "^1.7.6",
         "react-dom": "^18.2.0",
         "sanitize-html": "^2.10.0",
-        "netlify-cli": "^15.6.0"
+        "solid-js": "^1.7.6"
     },
     "devDependencies": {
         "@types/markdown-it": "^12.2.3",
